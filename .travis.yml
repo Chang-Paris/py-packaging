@@ -1,7 +1,7 @@
 language: python
 python:
 - 3.6
-install: pip install -U tox-travis pandas
+install: pip install tox-travis pandas
 script: tox
 env:
 - CODECOV_TOKEN="f841ce86-25bd-4b75-be2d-85226d4c3e09"
