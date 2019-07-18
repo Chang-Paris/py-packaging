@@ -6,6 +6,8 @@ python:
 - 2.7
 install: pip install -U tox-travis
 script: tox
+env:
+- CODECOV_TOKEN="f841ce86-25bd-4b75-be2d-85226d4c3e09"
 deploy:
   provider: pypi
   distributions: sdist bdist_wheel
